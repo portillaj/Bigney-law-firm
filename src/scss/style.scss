@@ -1,0 +1,44 @@
+$main-font: 'Lato', sans-serif;
+$white: #fff;
+$primary-color: #eda72e;
+$dark-overlay: rgba(0,0,0,0.5);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home-header {
+    font-family: $main-font;
+    background-image: url("../img/main-back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+    div.navbar-brand  {
+        color: $primary-color;
+    }
+    
+    .nav-link {
+        color: #333;
+        font-size: 16px;
+    }
+    
+    .dark-overlay {
+        background: $dark-overlay;
+        position:absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .header-content {
+        padding-top: 50px;
+    }
+        
+    .learn {
+        color: $primary-color;
+    }
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.home-header {
+  font-family: "Lato", sans-serif;
+  background-image: url("../img/main-back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+  .home-header div.navbar-brand {
+    color: #eda72e; }
+  .home-header .nav-link {
+    color: #333;
+    font-size: 16px; }
+  .home-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%; }
+  .home-header .header-content {
+    padding-top: 50px; }
+  .home-header .learn {
+    color: #eda72e; }
