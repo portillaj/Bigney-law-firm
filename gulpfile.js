@@ -1,4 +1,5 @@
 const gulp = require("gulp");
+const connect = require('gulp-connect-php');
 const browserSync = require("browser-sync").create();
 const sass = require("gulp-sass");
 
@@ -21,7 +22,7 @@ gulp.task('js', function(){
 //Watch Sass & Server
 gulp.task('serve', ['sass'], function(){
   browserSync.init({
-    server: "./src"
+    server: "http://localhost:81/Bigney-law-firm/src/"
   });
 
   gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);

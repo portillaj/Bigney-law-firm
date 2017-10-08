@@ -5,15 +5,18 @@
 
 .home-header {
   font-family: "Lato", sans-serif;
-  background-image: url("../img/main-back.jpg");
+  background-image: url("../img/downtown-orlando.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
-  .home-header div.navbar-brand {
+  .home-header .top-info {
+    background: #0e1b24;
+    height: 50px; }
+  .home-header navbar-brand {
     color: #eda72e; }
   .home-header .nav-link {
-    color: #333;
-    font-size: 16px; }
+    color: #0e1b24;
+    font-size: 15px; }
   .home-header .dark-overlay {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -21,7 +24,22 @@
     left: 0;
     height: 100vh;
     width: 100%; }
-  .home-header .header-content {
-    padding-top: 50px; }
-  .home-header .learn {
+  .home-header .logo-title {
+    font-size: 35px;
+    color: #0e1b24; }
+  .home-header .logo-sub {
+    font-size: 14px;
+    margin-left: 15%;
     color: #eda72e; }
+  .home-header .header-content {
+    padding-top: 170px; }
+    .home-header .header-content .home-para {
+      width: 90%; }
+    .home-header .header-content .learn {
+      color: #eda72e; }
+    .home-header .header-content .form-title {
+      color: #eda72e; }
+    .home-header .header-content .card {
+      background-color: rgba(15, 15, 15, 0.7); }
+    .home-header .header-content .btn {
+      color: #eda72e; }

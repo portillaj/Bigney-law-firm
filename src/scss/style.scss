@@ -2,6 +2,7 @@ $main-font: 'Lato', sans-serif;
 $white: #fff;
 $primary-color: #eda72e;
 $dark-overlay: rgba(0,0,0,0.5);
+$dark-blue: #0e1b24;
 
 * {
     box-sizing: border-box;
@@ -11,20 +12,25 @@ $dark-overlay: rgba(0,0,0,0.5);
 
 .home-header {
     font-family: $main-font;
-    background-image: url("../img/main-back.jpg");
+    background-image: url("../img/downtown-orlando.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    
-    div.navbar-brand  {
+
+    .top-info {
+        background: $dark-blue;
+        height: 50px;
+    }
+
+    navbar-brand  {
         color: $primary-color;
     }
-    
+
     .nav-link {
-        color: #333;
-        font-size: 16px;
+        color: $dark-blue;
+        font-size: 15px;
     }
-    
+
     .dark-overlay {
         background: $dark-overlay;
         position:absolute;
@@ -32,13 +38,34 @@ $dark-overlay: rgba(0,0,0,0.5);
         left: 0;
         height: 100vh;
         width: 100%;
+
     }
-    
-    .header-content {
-        padding-top: 50px;
+    .logo-title {
+        font-size: 35px;
+        color: $dark-blue;
     }
-        
-    .learn {
+    .logo-sub {
+        font-size: 14px;
+        margin-left: 15%;
         color: $primary-color;
     }
+
+        .header-content {
+                padding-top: 170px;
+                .home-para {
+                    width: 90%;
+                }
+                .learn {
+                    color: $primary-color;
+                }
+                .form-title {
+                    color: $primary-color;
+                }
+                .card {
+                    background-color: rgba(15,15,15,0.7);
+                }
+                .btn {
+                    color: $primary-color;
+                }
+        }
 }
