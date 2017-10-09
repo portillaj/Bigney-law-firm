@@ -10,12 +10,16 @@
   background-attachment: fixed;
   height: 100vh; }
   .home-header .top-info {
-    background: #0e1b24;
+    background: #0F1D42;
     height: 50px; }
+    .home-header .top-info .contact {
+      z-index: 2; }
+      .home-header .top-info .contact a {
+        color: #F3C35F; }
   .home-header navbar-brand {
-    color: #eda72e; }
+    color: #F3C35F; }
   .home-header .nav-link {
-    color: #0e1b24;
+    color: #0F1D42;
     font-size: 15px; }
   .home-header .dark-overlay {
     background: rgba(0, 0, 0, 0.5);
@@ -26,20 +30,40 @@
     width: 100%; }
   .home-header .logo-title {
     font-size: 35px;
-    color: #0e1b24; }
+    color: #0F1D42; }
   .home-header .logo-sub {
     font-size: 14px;
     margin-left: 15%;
-    color: #eda72e; }
-  .home-header .header-content {
-    padding-top: 170px; }
-    .home-header .header-content .home-para {
-      width: 90%; }
-    .home-header .header-content .learn {
-      color: #eda72e; }
-    .home-header .header-content .form-title {
-      color: #eda72e; }
-    .home-header .header-content .card {
+    color: #F3C35F; }
+  .home-header .main-info .header-content {
+    padding-top: 200px; }
+    .home-header .main-info .header-content .header {
+      color: #F3C35F; }
+    .home-header .main-info .header-content .home-para {
+      width: 90%;
+      font-size: 20px; }
+    .home-header .main-info .header-content .call-btn {
+      color: #F3C35F; }
+    .home-header .main-info .header-content .call-btn:hover {
+      background: #0F1D42;
+      border: none;
+      transition-delay: 0.4; }
+    .home-header .main-info .header-content .form-title {
+      color: #F3C35F; }
+    .home-header .main-info .header-content .card {
       background-color: rgba(15, 15, 15, 0.7); }
-    .home-header .header-content .btn {
-      color: #eda72e; }
+    .home-header .main-info .header-content .btn {
+      color: #F3C35F; }
+
+.news-section {
+  height: 130px; }
+  .news-section .news-img {
+    width: 100px;
+    height: 80px; }
+
+.attorneys .david {
+  width: 200px;
+  height: 200px; }
+
+.attorneys .break {
+  width: 40%; }

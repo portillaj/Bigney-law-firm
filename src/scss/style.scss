@@ -1,8 +1,8 @@
 $main-font: 'Lato', sans-serif;
 $white: #fff;
-$primary-color: #eda72e;
+$primary-color: #F3C35F;
 $dark-overlay: rgba(0,0,0,0.5);
-$dark-blue: #0e1b24;
+$dark-blue: #0F1D42;
 
 * {
     box-sizing: border-box;
@@ -20,6 +20,12 @@ $dark-blue: #0e1b24;
     .top-info {
         background: $dark-blue;
         height: 50px;
+        .contact {
+            z-index: 2;
+            a {
+                color: $primary-color;
+            }
+        }
     }
 
     navbar-brand  {
@@ -50,13 +56,23 @@ $dark-blue: #0e1b24;
         color: $primary-color;
     }
 
+    .main-info {
         .header-content {
-                padding-top: 170px;
+                padding-top: 200px;
+                .header {
+                    color: $primary-color;
+                }
                 .home-para {
                     width: 90%;
+                    font-size: 20px;
                 }
-                .learn {
+                .call-btn {
                     color: $primary-color;
+                }
+                .call-btn:hover {
+                    background: $dark-blue;
+                    border: none;
+                    transition-delay: 0.4;
                 }
                 .form-title {
                     color: $primary-color;
@@ -68,4 +84,26 @@ $dark-blue: #0e1b24;
                     color: $primary-color;
                 }
         }
+    }
+}
+
+.news-section {
+    height: 130px;
+    .news-img {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+.attorneys {
+    .david {
+        width: 200px;
+        height: 200px;
+    }
+    .break {
+        width: 40%;
+    }
+    .attorney-bio {
+
+    }
 }
